@@ -1,0 +1,704 @@
+/* Resetting default margins and paddings */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Setting basic styles for the body */
+body {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the first navbar */
+.navbar-one {
+    display: flex;
+    width: 100%;
+    background-color: orangered;
+    height: 30px;
+    color: white;
+}
+
+.navbar-one div {
+    padding-left: 400px;
+    margin-left: -180px;
+}
+
+.svg {
+    width: 20px;
+}
+
+/* Styling for the second navbar */
+.navbar-Two {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.hi {
+    margin-left: 200px;
+    margin-top: -10px;
+}
+
+.navbar-Two ul {
+    display: flex;
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.navbar-Two li {
+    margin-right: 60px;
+    list-style: none;
+}
+
+.navbar-Two li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-Two button {
+    width: 100px;
+    margin-top: -10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 43);
+}
+
+.navbar-Two li button a {
+    color: white;
+}
+
+.navbar-Two img {
+    display: none;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    width: 30px;
+    margin-top: -4px;
+}
+
+/* Styling for the sidebar */
+.sideBar {
+    background-color: rgba(211, 211, 211, 0.781);
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: 0.5s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.sideBar li {
+    margin-top: 20px;
+    list-style: none;
+    width: 100%;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.sideBar li:hover {
+    background-color: white;
+}
+
+.sideBar button {
+    width: 100px;
+    margin-top: -10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 43);
+}
+
+.sideBar li a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.sideBar li button a {
+    color: white;
+}
+
+/* Styling for section con1 */
+.con1 {
+    width: 95%;
+    height: 500px;
+    background-color: rgb(16, 16, 129);
+    margin-left: 35px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.max2 {
+    display: flex;
+}
+
+.box1 {
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 60px;
+    height: 400px;
+}
+
+.tap1 {
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+}
+
+.tap2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.tap2 img {
+    width: 15px;
+}
+
+.tap3 {
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.tap3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.box1 h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.p {
+    width: 350px;
+}
+
+.box1 p {
+    color: white;
+    font-size: small;
+}
+
+.imgdiv img {
+    height: 500px;
+    width: 100%;
+    margin-left: 84px
+}
+
+/* Styling for section con2 */
+.con2 {
+    width: 95%;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 35px;
+    margin-top: 60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.con2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.con2 h1 span {
+    color: orangered;
+}
+
+.sec {
+    margin-top: 7px;
+    font-size: smaller;
+}
+
+.jpge {
+    width: 120px;
+}
+
+.max3 {
+    width: 1200px;
+    margin-top: 25px;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.card {
+    width: 310px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.card h3 {
+    padding-top: 5px;
+}
+
+.card p {
+    padding-bottom: 5px;
+}
+
+.con4{
+    width:95%;
+    height:500px;
+    margin-top:-20px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.imgHolder img{
+    height:350px;
+    width:620px;
+    margin-top: 154px;
+    margin-left: -60px;
+}
+
+.max4{
+    width:650px;
+    margin-left: 53px;
+    margin-top: 55px;
+}
+
+.max4 h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.max4 h4{
+    margin-left: 35px;
+}
+.max4 h1 span{
+    color: orangered;
+}
+
+.max4 h4 img {
+    margin-left: -35px;
+}
+
+.text{
+    width:430px;
+    margin-left: 35px;
+}
+
+.max4 div{
+    margin-bottom: 25px;
+}
+
+
+.con5{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.con5 h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.con5 h3 span{
+    color: orangered;
+}
+
+.con5 img{
+    width: 80px;
+    margin-bottom: 10px;
+    
+}
+
+.max5 {
+    display: flex;
+}
+
+.max5 div{
+    display: flex;
+    flex-direction: column;
+    height:270px;
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px  grey;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.con6{
+    width:100%;
+    height:350px;
+    background-color: rgb(16, 16, 129);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.top{
+    margin-left:100px;
+    margin-bottom: 33px;
+}
+.top h1{
+    font-size: 2.5rem;
+}
+
+.top h1 span{
+    color: orangered;
+}
+
+.top p{
+    text-align:justify;
+    font-size:13px;
+}
+
+.container6{
+   display: flex;
+   margin: 0 auto;
+}
+
+.container6 div{
+    width: 330px;
+    margin-left: 30px;
+}
+
+.container6 div p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.star{
+    width:130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    /* Adjustments for smaller screens */
+    .con1 {
+        height: 800px;
+        background-color: rgb(16, 16, 129);
+        display: block;
+        width: 100%;
+        margin-left:0;
+        margin-bottom: 80px;
+    }
+
+    .max2 {
+        display: block;
+    }
+
+    .box1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .imgdiv {
+        display: block;
+        margin-left:-84px;
+    }
+
+    .box1 h1 {
+        font-size:2rem;
+    }
+
+    .imgdiv img {
+        width:300px;
+        height: 300px;
+        margin-top: -130px;
+    }
+
+    .con2 {
+        margin-left: 0;
+        margin-top: 100px;
+        font-size: smaller;
+    }
+
+    .con2 h1 {
+        font-size: 1.5rem;
+        margin: 0 auto;
+
+    }
+
+    .sec{
+        
+        margin: 0 auto;
+
+    }
+
+    .head{
+         margin: 0 auto; 
+    }
+
+    .max3 {
+        display: block; 
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        background-color: rgba(75, 72, 72, 0.185);
+        font-weight: 200; 
+        margin-left: 325px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card .svg {
+        margin-top: 10px;
+        width: 15px;
+    }
+
+    .con4{
+        padding-top:280px;
+    }
+
+    .max4{
+        font-size: small;
+        margin-top: 70px;
+       
+        
+    }
+
+    .three{
+        margin-right: 30px;
+    }
+    .max4 div{
+        margin-left: 30px;
+    }
+
+    .max4 h1{
+        font-size: 1rem;
+    }
+
+    .text{
+        width:250px;
+    }
+
+    .imgHolder {
+        display: none;
+    }
+    .imgHolder img{
+        display:none;
+    }
+
+    .con5{
+        display: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top:-80px;
+    }
+
+    .con5 h3{
+        font-size: 1rem;
+        
+    }
+
+    .max5{
+        display: block;
+        margin-left:3px;
+        height:100px;
+        width: 250px;
+    }
+
+    .max5 div{
+        margin-bottom: 30px;
+    }
+    
+    .con5 img{
+        width: 50px;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .con6{
+        margin-top: 700px;
+        height:720px;
+    }
+
+   
+
+    .container6{
+        display: flex;
+        flex-direction: column;
+        margin-left:11px;
+        font-size:12px;
+    }
+
+    .container6 div{
+        margin-bottom: 15px;
+        margin-right:20px;
+        width: 280px;
+    }
+
+    .top{
+        padding-left: -100px;
+        width: 280px;
+    }
+    
+
+    .top h1{
+        font-size: 1.2rem;
+    }
+
+    .top h3{
+        font-size: 1.3rem;
+    }
+
+    .star{
+        width:90px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /* Additional adjustments for even smaller screens */
+    .hideonMobileview {
+        display: none;
+    }
+
+    .navbar-one {
+        display: none;
+    }
+
+    .navbar-Two img {
+        display: flex;
+    }
+
+    .hi {
+        margin-left: 0;
+    }
+
+    .navbar-Two ul {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .con1 {
+        width: 100%;
+        margin-left: 0;
+        height: 500px;
+        padding-top: 10px;
+    }
+
+    .box1 {
+        margin-left: 7px;
+        margin-top: 20px;
+        margin-right: 2px;
+        width: 500px;
+    }
+
+    .imgdiv img {
+        width:505px;
+    }
+
+    .card {
+        margin-right: 10px;
+        width: 300px;
+        font-size: smaller;
+    }
+
+    .con2 {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .max3 {
+        margin-left: 250px; /* Adjust margin-left as needed */
+    }
+
+    .jpge {
+        width: 60px;
+    }
+
+    .con4{
+        width: 100%;
+        margin-left: 0;
+        margin-top: -130px;
+    }
+
+    .max4{
+        margin-left:20px;
+    }
+
+    .imgHolder img{
+        width:520px;
+    }
+
+
+
+    .top{
+        margin-left:40px;
+        margin-bottom: 33px;
+    }
+
+   
+}
